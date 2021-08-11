@@ -1,3 +1,28 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 100px 0 100px; */
+  width: calc(100% - 148px * 2);
+  margin: 0 auto;
+}
 
+/* @media screen and (max-width: 1024px) { */
+@media screen and (max-width: 1148px) {
+  .header {
+    width: calc(100% - 48px * 2);
+  }
+}
+/* 768 */
+@media screen and (max-width: 860px) {
+  .header {
+    width: calc(100% - 28px * 2);
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 540px) {
+  .header {
+    width: calc(100% - 16px * 2);
+  }
 }

@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -8,15 +8,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/pages/index.css" />
   </head>
-  <body>
-    <div class="page">
-      <header class="header"></header>
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
+        <img
+          class="header__logo"
+          src="/images/logo.svg"
+          alt="white filled USA map outline"
+        />
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a class="header__lang-link header__lang-link_active" href="#"
+                >En</a
+              >
+            </li>
+            <li class="header__list-item">
+              <a class="header__lang-link" href="#">Es</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <main>
         <section class="lead"></section>
         <section class="intro"></section>
         <section class="photo-grid"></section>
         <section class="places"></section>
-        <section class="cover"></section>
+        <section class="cover">
+          <!-- <a
+            class="cover__link"
+            href="https://www.nps.gov/nr/travel/route66/maps66.html"
+          >
+            <div class="cover__text">
+              <h2 class="cover__title">Historic Route 66</h2>
+              <p class="cover__descriptions">
+                The Main Street of America from Santa Monica, Cal. to Chicago,
+                Ill.
+              </p>
+            </div>
+          </a> -->
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>

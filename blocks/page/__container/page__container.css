@@ -1,0 +1,12 @@
+.page__container {
+  max-width: 1184px;
+  margin: 34px auto 0 auto;
+  color: white;
+}
+
+/* 320 */
+@media screen and (max-width: 540px) {
+  .page__container {
+    margin: 20px auto 0 auto;
+  }
+}
