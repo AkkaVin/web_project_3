@@ -50,8 +50,12 @@ a.cover__link::after {
   margin: 0 auto;
 }
 
+/* TODO parse all section to BEM */
+
 /* TODO
   resp "a background"
+  when  more less width then  more top/bottom
+  margins (out of cover)
 */
 
 /* 1024px */
@@ -59,8 +63,6 @@ a.cover__link::after {
   .cover__link {
       /* max-width: 1024px; */
       min-height: 640px;
-
-
     }
   .cover {
     margin: 88px 0;
