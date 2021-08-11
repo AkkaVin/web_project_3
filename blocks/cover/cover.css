@@ -1,5 +1,5 @@
 .cover {
-  margin: 0 auto;
+  margin: 92px auto;
 }
 
 .cover__link {
@@ -11,6 +11,8 @@
   color: white;
   position: relative;
   background-image: url(/images/cover-route-66.jpg);
+  background-size: cover;
+  margin: 0 0;
 }
 
 a.cover__link::after {
@@ -25,13 +27,13 @@ a.cover__link::after {
   transition: 0.5s;
 }
 
-.cover__link:hover:after
-{
-  opacity: .8;
+.cover__link:hover:after {
+  opacity: 0.8;
 }
 
 .cover__text {
   z-index: 1;
+  text-align: center;
 }
 
 .cover__title {
@@ -48,23 +50,52 @@ a.cover__link::after {
   margin: 0 auto;
 }
 
-/* @media screen and (max-width: 1024px) { */
-  @media screen and (max-width: 1148px) {
-    .cover__link {
-      min-width: 1024px;
-      min-height: 640px;
-    }
-  }
-  /* 768 */
-  /* @media screen and (max-width: 860px) {
-    .cover__link {
-      max-width: 768px;
-    }
-  } */
+/* TODO
+  resp "a background"
+*/
 
-  /* 320 */
-  /* @media screen and (max-width: 540px) {
-    .header {
-      width: calc(100% - 16px * 2);
+/* 1024px */
+@media screen and (max-width: 1148px) {
+  .cover__link {
+      /* max-width: 1024px; */
+      min-height: 640px;
+
+
     }
-  } */
+  .cover {
+    margin: 88px 0;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 860px) {
+  .cover__link {
+    min-height: 480px;
+  }
+  /* cover the same no need to change*/
+}
+
+/* 320 */
+@media screen and (max-width: 540px) {
+  .cover {
+    margin: 64px 0;
+  }
+  .cover__link {
+    min-height: 200px;
+  }
+
+  /* may need change both titles on 612px size
+    - title length reason TODO*/
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 0 16px 0;
+  }
+
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+    margin: 0 auto;
+  }
+}
