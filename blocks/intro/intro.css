@@ -1,3 +1,83 @@
 .intro {
+  width: calc(100% - 148px - 442px);
+  margin: 92px 442px 0 148px;
+}
 
+.intro__container {
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0 0 40px 0;
+  padding: 0;
+}
+
+.intro__subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0 0 32px 0;
+  padding: 0;
+}
+
+.intro__text {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 33px 0;
+  padding: 0;
+}
+
+.intro__list {
+  list-style: none;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__totals_headres {
+  font-weight: bold;
+}
+
+
+/* TODO parse to BEM */
+
+/* 1024px */
+@media screen and (max-width: 1148px) {
+  .intro {
+    width: calc(100% - 48px - 286px);
+    margin: 92px 286px 0 48px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 860px) {
+  .intro {
+    width: calc(100% - 24px * 2);
+    margin: 88px 24px 0 24px;
+  }
+
+}
+
+/* 320 */
+@media screen and (max-width: 540px) {
+  .intro {
+    width: calc(100% - 16px * 2);
+    margin: 64px 16px 0 16px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__subtitle {
+    line-height: 30px;
+  }
+
+  .intro__text {
+    margin: 0 0 34px 0;
+  }
 }
