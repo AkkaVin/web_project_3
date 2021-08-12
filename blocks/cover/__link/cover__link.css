@@ -6,7 +6,7 @@
   text-decoration: none;
   color: white;
   position: relative;
-  background-image: url(/images/cover-route-66.jpg);
+  background-image: url(../../../images/cover-route-66.jpg);
   background-size: cover;
   margin: 0 0;
 }
