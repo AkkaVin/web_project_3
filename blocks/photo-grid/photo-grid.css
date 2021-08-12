@@ -6,19 +6,6 @@
   margin: 92px 0 0 0;
 }
 
-.photo-grid__item {
-  margin: 0;
-  padding: 0;
-}
-
-.photo-grid__image {
-  max-width: 100%;
-}
-
-/* TODO parse to BEM */
-/* TODO alt tags in HTML */
-
-
 /* 1024px */
 @media screen and (max-width: 1148px) {
   .photo-grid {
