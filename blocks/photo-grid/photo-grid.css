@@ -24,6 +24,7 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 14px;
+    margin: 92px 48px 0 48px;
   }
 }
 
@@ -32,7 +33,7 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(352, 1fr));
     grid-gap: 16px;
-    margin: 88px 0 0 0;
+    margin: 88px 24px 0 24px;
   }
 }
 
@@ -41,6 +42,6 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     grid-gap: 12px;
-    margin: 64px 0 0 0;
+    margin: 64px 16px 0 16px;
   }
 }
