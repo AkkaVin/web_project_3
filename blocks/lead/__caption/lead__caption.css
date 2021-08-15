@@ -7,3 +7,21 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
+
+
+/* 768 */
+@media screen and (max-width: 860px) {
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
+}
+
+
+
+/* 320 */
+@media screen and (max-width: 540px) {
+  .lead__caption {
+    margin: 8px 0 0 16px;
+  }
+}

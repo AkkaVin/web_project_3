@@ -8,10 +8,19 @@
 /* 1024px */
 @media screen and (max-width: 1148px) {
   .place__main-text {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
+/* 768px */
+@media screen and (max-width: 860px) {
+  .place__main-text {
     font-size: 16px;
     line-height: 26px;
   }
 }
+
 
 /* 320 */
 @media screen and (max-width: 540px) {

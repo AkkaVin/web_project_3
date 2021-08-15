@@ -3,3 +3,10 @@
   padding: 0;
   width: 100%;
 }
+
+/* 1024px */
+@media screen and (max-width: 1148px) {
+  .lead__figure {
+    margin: 56px 0 0 0;
+  }
+}
