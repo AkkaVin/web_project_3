@@ -10,3 +10,10 @@
     margin: 56px 0 0 0;
   }
 }
+
+/* 320px */
+@media screen and (max-width: 560px) {
+  .lead__figure {
+    margin: 40px 0 0 0;
+  }
+}

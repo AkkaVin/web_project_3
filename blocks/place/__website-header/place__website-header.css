@@ -3,5 +3,13 @@
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.2em;
+  margin: 0;
+  padding: 0;
 }
 
+/* 768px */
+@media screen and (max-width: 860px) {
+  .place__website-header {
+    line-height: 12px;
+  }
+}
