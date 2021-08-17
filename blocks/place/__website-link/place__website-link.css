@@ -3,13 +3,6 @@
   line-height: 22px;
   color: white;
   padding: 0;
-  /* margin: 4px 0 0 0; */
+  margin: 0;
 }
 
-
-/* 768px */
-@media screen and (max-width: 860px) {
-  .place__website-link {
-    /* margin: 12px 0 0 0; */
-  }
-}

@@ -9,7 +9,8 @@
 }
 
 /* 768px */
-@media screen and (max-width: 860px) {
+/* @media screen and (max-width: 860px) { */
+@media screen and (max-width: 768px) {
   .place__website-header {
     line-height: 12px;
   }
