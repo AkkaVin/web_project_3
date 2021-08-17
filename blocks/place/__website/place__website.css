@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
   align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 /* 320 */
 @media screen and (max-width: 540px) {
   .place__website {
     padding: 0 16px;
+    gap: 12px;
   }
 }

@@ -41,7 +41,7 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website-header/place__website-header.css);
-@import url(../blocks/place/__website-header/_uppercase/place__website-header_uppercase.css);
+@import url(../blocks/place/__website-header/_writing/place__website-header_writing_uppercase.css);
 @import url(../blocks/place/__website-link/place__website-link.css);
 @import url(../blocks/place/__main-text/place__main-text.css);
 @import url(../blocks/place/__main-text-paragrath/place__main-text-paragrath.css);
